@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Quiz</title>
+    <LINK href="../css/style.css" rel="stylesheet">
+    <script language="javascript" src="../js/js.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul id="liste">
+                <li><a target="_blank" href="../page d'accueil.html "> Actualité </a></li>
+                <li><a target="_blank" href="../autres pages html/parcours_académique.html "> Parcours académique </a>
+                </li>
+                <li><a target="_blank" href="../autres pages html/compétences_informatiques.html"> Compétences
+                        informatiques </a></li>
+                <li><a target="_blank" href="../autres pages html/stages.html"> Stages&nbsp; &nbsp; </a></li>
+                <li><a target="_blank" href="../autres pages html/manifestations_scientifiques.html"> Manifestations
+                        scientifiques
+                    </a></li>
+                <li><a target="_blank" href="../autres pages html/passions.html"> Passions </a></li>
+                <li><a target="_blank" href="../autres pages html/contact.html"> Contacts </a></li>
+                <li><a id="menu_actuel" href="../autres pages html/quiz.html"> Quiz </a></li>
+                <li><a target="_blank" href="../autres pages html/témoignage.html"> Témoignage sur l'IIT </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <body>
+        
+
+        <h1>QUIZ </h1>
+        <form id="quiz" name="quiz">
+            <p class="questions">1.Quelle est la balise utilisée pour créer un lien hypertexte en HTML?</p>
+            <input type="radio" id="mc" name="question1" value="link">link <br>
+            <input type="radio" id="mc" name="question1" value="a"> a <br>
+            
+            <p class="questions">2.Quelle est la balise utilisée pour créer un paragraphe en HTML?</p>
+            <input type="radio" id="mc" name="question2" value="p"> p <br>
+            <input type="radio" id="mc" name="question2" value="div"> div <br>
+            <p class="questions">3.Quelle est la balise utilisée pour créer une image en HTML?</p>
+            <input type="radio" id="mc" name="question3" value="picture"> picture<br>
+            <input type="radio" id="mc" name="question3" value="img"> img<br>
+            <p class="questions">4.Quelle est la balise utilisée pour créer un titre de niveau 1 en HTML?</p>
+            <input type="radio" id="mc" name="question4" value="h1"> h1<br>
+            <input type="radio" id="mc" name="question4" value="headline"> headline<br>
+            <p class="questions">5.Quelle est la balise utilisée pour créer une liste non ordonnée en HTML?</p>
+            <input type="radio" id="mc" name="question5" value="ul"> ul<br>
+            <input type="radio" id="mc" name="question5" value="ol"> ol<br>
+        
+            <p class="questions">6.Quelle est la syntaxe pour ajouter une feuille de style CSS à une page HTML?</p>
+            <input type="radio" id="mc" name="question6" value="link">link <br>
+            <input type="radio" id="mc" name="question6" value="css"> css <br>
+            <p class="questions">7.Comment sélectionner tous les éléments de paragraphe dans une page HTML?</p>
+            <input type="radio" id="mc" name="question7" value="p { }"> p { } <br>
+            <input type="radio" id="mc" name="question7" value=".p { }"> .p { } <br>
+            <p class="questions">8.Comment définir la couleur de fond d'un élément sélectionné en CSS?</p>
+            <input type="radio" id="mc" name="question8" value="background-color:"> background-color:<br>
+            <input type="radio" id="mc" name="question8" value="font-color:"> font-color:<br>
+            <p class="questions">9.Comment aligner un texte à droite dans un élément sélectionné en CSS?</p>
+            <input type="radio" id="mc" name="question9" value=" text-align: right;">  text-align: right;<br>
+            <input type="radio" id="mc" name="question9" value="align-text: right;"> align-text: right;<br>
+            <input id="button" type="button" value="Validez!" onclick="check();">
+        </form>
+
+        <div id="after_submit">
+            <p class="p1" id="number_correct"></p>
+            <p class="p1" id="message"></p>
+            
+        </div>
+    </body>
+
+</html>
